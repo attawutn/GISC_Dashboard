@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Line4Dashboard_Cendriod04022022",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Id": 0, "Lat": 12.6213343276, "Long": 101.362053957, "Beach_Qual": "Good", "FoodQual": "แย่มาก", "Air_Qual": "ดีมาก" }, "geometry": { "type": "Point", "coordinates": [ 101.362053956566101, 12.621334327599349 ] } },
+{ "type": "Feature", "properties": { "Id": 0, "Lat": 12.598600666199999, "Long": 101.404550231, "Beach_Qual": "Normal", "FoodQual": "8/10", "Air_Qual": "Normal" }, "geometry": { "type": "Point", "coordinates": [ 101.404550231411008, 12.598600666213885 ] } },
+{ "type": "Feature", "properties": { "Id": 0, "Lat": 12.609908192200001, "Long": 101.425158701, "Beach_Qual": "ดีมาก", "FoodQual": "ปานกลาง", "Air_Qual": "77/100" }, "geometry": { "type": "Point", "coordinates": [ 101.425158701258113, 12.609908192187062 ] } },
+{ "type": "Feature", "properties": { "Id": 0, "Lat": 12.5697410602, "Long": 101.448382756, "Beach_Qual": "กำลังปรับปรุง", "FoodQual": "5.5/10", "Air_Qual": "กำลังพัฒนาระบบ" }, "geometry": { "type": "Point", "coordinates": [ 101.448382755697523, 12.569741060198913 ] } }
+]
+}
