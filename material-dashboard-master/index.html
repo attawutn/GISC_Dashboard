@@ -18,8 +18,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
-  <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon.ico">
+  <link rel="icon" type="image/png" href="./assets/favicon.ico">
   <title>
     GISC Test Dashboard
   </title>
@@ -41,7 +41,7 @@
     <div class="sidenav-header">
       <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
       <a class="navbar-brand m-0" href=" https://demos.creative-tim.com/material-dashboard/pages/dashboard " target="_blank">
-        <img src="./assets/img/logo-ct.png" class="navbar-brand-img h-100" alt="main_logo">
+        <img src="./assets/water-pollution.png" class="navbar-brand-img h-100" alt="main_logo">
         <span class="ms-1 font-weight-bold text-white">GISC Test Dashboard</span>
       </a>
     </div>
@@ -294,6 +294,16 @@
           </div>
         </div>
       </div>
+
+      <section id="services" class="services">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <img src="assets/timeline.jpg" alt="#" class="img-fluid w-100" />
+            </div>          
+          </div>
+      </section><!-- End Portfolio Section -->
+      
       <footer class="footer py-4  ">
         <div class="container-fluid">
           <div class="row align-items-center justify-content-lg-between">
@@ -415,13 +425,13 @@
       data: {
         labels: ["M", "T", "W", "T", "F", "S", "S"],
         datasets: [{
-          label: "Sales",
+          label: "Petroleum Hydrocarbons",
           tension: 0.4,
           borderWidth: 0,
           borderRadius: 4,
           borderSkipped: false,
           backgroundColor: "rgba(255, 255, 255, .8)",
-          data: [50, 20, 10, 22, 50, 10, 40],
+          data: [0.57, 0.53, 0.8, 0.4, 0.9, 0.1, 0.38],
           maxBarThickness: 6
         }, ],
       },
@@ -494,9 +504,9 @@
     new Chart(ctx2, {
       type: "line",
       data: {
-        labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+        labels: ["Jan","Feb","Mar","Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
         datasets: [{
-          label: "Mobile apps",
+          label: "pH",
           tension: 0,
           borderWidth: 0,
           pointRadius: 5,
@@ -507,7 +517,7 @@
           borderWidth: 4,
           backgroundColor: "transparent",
           fill: true,
-          data: [50, 40, 300, 320, 500, 350, 200, 230, 500],
+          data: [7.0, 7.4, 5.6, 6.6, 8.9, 9.2, 5.4, 6.5, 3.2,5.4,6.8,12.5,10.6],
           maxBarThickness: 6
 
         }],
@@ -577,7 +587,7 @@
     new Chart(ctx3, {
       type: "line",
       data: {
-        labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+        labels: ["Jan","Feb","Mar","Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
         datasets: [{
           label: "Mobile apps",
           tension: 0,
@@ -589,7 +599,7 @@
           borderWidth: 4,
           backgroundColor: "transparent",
           fill: true,
-          data: [50, 40, 300, 220, 500, 250, 400, 230, 500],
+          data: [26.2, 26.8, 27.6, 28.2, 28, 27.7, 27.5, 27.4,26.9,26.6,26.7,26.2],
           maxBarThickness: 6
 
         }],
